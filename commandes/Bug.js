@@ -117,9 +117,9 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // bug menu
 zokou(
     {
-        nomCom: "boniphacebugs",
+        nomCom: "galaxybugs",
         categorie: "menu",
-        reaction: "🅱️",
+        reaction: "🔥",
     },
 
     async (dest, zk, commandOptions) => {
@@ -241,7 +241,7 @@ zokou(
                     bugpdf
             });
         }
-        await zk.sendMessage(dest, { react: { text: "🅱️", key: ms.key } });
+        await zk.sendMessage(dest, { react: { text: "🔥", key: ms.key } });
     }
 );
 
